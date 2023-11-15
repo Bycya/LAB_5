@@ -15,7 +15,8 @@ namespace WpfApp1
         }
         public override string getDescription()
         {
-            return beverage.getDescription() + ", Молоко";
+            return beverage.getDescription() + ", Молоко ";
+
         }
         public override double cost()
         {
