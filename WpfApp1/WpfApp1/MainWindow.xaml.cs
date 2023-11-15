@@ -79,6 +79,9 @@ namespace WpfApp1
             Im2.Source = null;
             Im3.Source = null;
         }
+
+
+
         public void Proverka()
         {
             cost_lab.Content = beverage.cost().ToString();
