@@ -70,9 +70,9 @@ namespace WpfApp2
         {
             if (tb.Text != "")
             {
-                if (int.Parse(tb.Text) > 25 || int.Parse(tb.Text) == 0)
+                if (int.Parse(tb.Text) > 20 || int.Parse(tb.Text) == 0)
                 {
-                    MessageBox.Show("Ограничение до 25 этажей");
+                    MessageBox.Show("Ограничение до 20 этажей");
                     tb.Text = "";
                 }
                 else
