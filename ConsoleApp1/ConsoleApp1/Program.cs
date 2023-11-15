@@ -15,14 +15,14 @@ namespace ConsoleApp1
         {
             Beverage beverage = new Espresso();
             beverage = new Shuga(beverage);
-            Console.WriteLine(beverage.getDescription() + " цена напитка: " + beverage.cost());
+            Console.WriteLine(beverage.getDescription() + " цена: " + beverage.cost());
             Beverage beverage2 = new Kakao();
             beverage2 = new Shuga(beverage2);
             beverage2 = new Shuga(beverage2);
             beverage2 = new Milk(beverage2);
-            Console.WriteLine(beverage2.getDescription() + " цена напитка: " + beverage2.cost());
+            Console.WriteLine(beverage2.getDescription() + " цена: " + beverage2.cost());
             Beverage beverage3 = new Shuga(new Milk(new Milk(new Amerikano())));
-            Console.WriteLine(beverage3.getDescription() + " цена напитка: " + beverage3.cost());
+            Console.WriteLine(beverage3.getDescription() + " цена: " + beverage3.cost());
         Console.ReadLine();
 
 
